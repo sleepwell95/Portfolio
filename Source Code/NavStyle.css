@@ -115,6 +115,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+/*If the screen width is biger than 800px*/
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
