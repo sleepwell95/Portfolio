@@ -1,24 +1,43 @@
+:root {
+  background: #e69a8dff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: #5f4b8bff;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
+
+.content {
+  height: 200vh;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
+
+/*Navigation bar style start*/
 header {
-  background: #e69a8dff;
+  background: rgba(230, 154, 141, 0.7);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 header::after {
   content: "";
   display: table;
   clear: both;
 }
-.logo {
-  float: left;
-}
 nav {
-  float: right;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
 }
