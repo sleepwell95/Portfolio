@@ -1,0 +1,24 @@
+@import "./_header";
+@import "./_sections";
+/*code for page style,
+default stuff*/
+$background: rgba(230, 154, 141, 0.7);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #5f4b8bff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  padding: 0;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}

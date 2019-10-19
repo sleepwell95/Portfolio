@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 200vh;
+  background-blend-mode: multiply;
+  background-color: red;
+  background-size: cover;
+  display: inline-block;
+  place-items: center;
+  width: 100%;
+}
+#section2 {
+  height: 200vh;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: none;
+  place-items: center;
+}
+#section3 {
+  height: 200vh;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}

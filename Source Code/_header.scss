@@ -1,37 +1,6 @@
-/*code for page style,
-default stuff*/
-
-:root {
-  --background: rgba(230, 154, 141, 0.7);
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #5f4b8bff;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-}
-
-.content {
-  height: 200vh;
-  background-blend-mode: multiply;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-}
-.logo {
-  margin: 0;
-  padding: 0;
-}
-
 /*Navigation bar style start*/
 header {
-  background: var(--background);
+  background: $background;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -81,7 +50,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
+  background: $background;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
