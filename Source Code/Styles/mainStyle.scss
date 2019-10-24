@@ -6,7 +6,7 @@
 
 
 /*Navigation bar style start*/
-
+// Header 
 header {
     background: var(--background);
     text-align: center;
@@ -21,6 +21,7 @@ header::after {
     clear: both;
 }
 
+// Nav configurations
 .nav-toggle {
     display: none;
 }
