@@ -206,12 +206,16 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  background-color: white;
+}
 #section1 {
   width: 100%;
   height: 100vh;
   background-blend-mode: multiply;
-  background-color: orange;
+  background-image: url(Assets/div1-placehold.jpg);
   background-size: cover;
+  background-attachment: fixed; /* Jpg failą užrakina vietoje */
   display: grid;
   place-items: center;
 }
